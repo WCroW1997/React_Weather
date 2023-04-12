@@ -4,11 +4,11 @@ import HeaderForm from './HeaderForm'
 
 import styles from './Header.module.css'
 
-const Header = () => {
+const Header = ({ choiseCity }) => {
 	return (
 		<header className={styles.header}>
 			<HeaderInfo />
-			<HeaderForm />
+			<HeaderForm choiseCity={choiseCity} />
 		</header>
 	)
 }

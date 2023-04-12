@@ -5,10 +5,16 @@ import WeatherTime from './WeatherTime'
 import WeatherWeek from './WeatherWeek'
 import styles from './module/Weather.module.css'
 
-const Weather = () => {
+const Weather = (props) => {
+	console.log(props)
 	return (
 		<div className={styles.weather}>
-			<WeatherInfo />
+			<WeatherInfo
+				name={props.name}
+				temp={props.main.temp}
+				wind={props.wind.speed}
+				humidity={props.main.humidity}
+			/>
 			<WeatherTime />
 			<WeatherWeek />
 		</div>
