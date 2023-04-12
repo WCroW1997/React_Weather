@@ -1,0 +1,46 @@
+.input {
+	background: #161627;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	width: 100%;
+}
+.label {
+	position: relative;
+	display: flex;
+	flex-basis: 80%;
+}
+
+.searchBtn {
+	background: #454554;
+	padding: 9px 25px;
+	border-radius: 8px;
+	position: absolute;
+	border: none;
+	right: 0;
+	color: #7f7f8d;
+	font-weight: 700;
+}
+
+.geolocateBtn {
+	background: #161627;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 20px;
+	color: #f0f0f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	font-weight: 600;
+}
+
+.form {
+	display: flex;
+	justify-content: flex-end;
+	align-items: stretch;
+	gap: 15px;
+}

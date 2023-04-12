@@ -1,0 +1,11 @@
+.week {
+	flex-basis: 100%;
+}
+
+.zones {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}

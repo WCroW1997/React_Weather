@@ -4,7 +4,7 @@ const HeaderInfo = () => {
 	return (
 		<div>
 			<div className={styles.headerLogo}>Weather Forecast</div>
-			<div className={styles.headerDate}>12/12/23</div>
+			<div className={styles.headerDate}>Thu 12/12/23</div>
 		</div>
 	)
 }

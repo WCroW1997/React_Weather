@@ -1,0 +1,11 @@
+.zones {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+	background: #121125;
+	border-radius: 8px;
+	padding: 10px;
+	gap: 10px;
+}
