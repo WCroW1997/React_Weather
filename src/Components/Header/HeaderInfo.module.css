@@ -1,0 +1,11 @@
+.headerLogo {
+	font-size: 24px;
+	font-weight: 700;
+	color: #536290;
+}
+
+.headerDate {
+	margin-top: 15px;
+	color: #90909d;
+	font-weight: 600;
+}
