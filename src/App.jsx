@@ -9,7 +9,6 @@ function App() {
 	const [isLoading, setIsLoading] = useState(true)
 
 	const [cityName, setCityName] = useState('London')
-	console.log(data)
 	useEffect(() => {
 		fetch(apiConfig.api_url(cityName, apiConfig.apiKey))
 			.then((response) => response.json())

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './module/WeatherInfo.module.css'
 
-const WeatherInfo = ({ name, temp, wind, humidity }) => {
+const WeatherInfo = ({ name, temp, wind, humidity, icon }) => {
 	return (
 		<div className={styles.weatherInfo}>
 			<div className={styles.leftZone}>
@@ -20,7 +20,7 @@ const WeatherInfo = ({ name, temp, wind, humidity }) => {
 					</p>
 				</div>
 			</div>
-			<img src='' alt='' />
+			<img src={`https://openweathermap.org/img/w/${icon}.png`} alt='' />
 		</div>
 	)
 }
